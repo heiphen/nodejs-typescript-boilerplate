@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "types": ["node"],
+    "baseUrl": "./",
+    "paths": {
+      "@api/*": ["api/*"],
+      "@utils": ["api/utils"],
+      "@health/*": ["api/health/*"]
+    }
+  },
+  "include": ["api", "server.ts"]
+}
