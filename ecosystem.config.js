@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: 'NodeApp - APIs',
+      name: 'Evolute - APIs',
       script: 'yarn start',
       env: {
         NODE_ENV: 'production',

@@ -7,9 +7,9 @@
     "types": ["node"],
     "baseUrl": "./",
     "paths": {
-      "@api/*": ["api/*"],
+      "@api": ["api"],
       "@utils": ["api/utils"],
-      "@health/*": ["api/health/*"]
+      "@health": ["api/health"]
     }
   },
   "include": ["api", "server.ts"]

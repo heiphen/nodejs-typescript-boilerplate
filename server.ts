@@ -9,7 +9,7 @@ import rateLimit from 'express-rate-limit';
 import cors from 'cors';
 import { Handlers } from '@sentry/node';
 
-import { healthRouter } from '@health/health-controller';
+import { healthRouter } from '@health';
 import {
   validateRecaptcha,
   initSentry,
